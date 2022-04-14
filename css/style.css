@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+/*HEADER*/
+.navbar-logo {
+  display: flex;
+  padding: 30px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.socialmedia-box {
+  padding: 10px 0;
+}
+
+.socialmedia-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.socialmedia-ul li {
+  padding: 0 10px;
+  list-style-type: none;
+}
+
+.socialmedia-ul li a {
+  color: black;
+}
+
+.fab {
+  font-size: 35px;
+}
+
+.box-logo {
+  margin: auto;
+  margin-right: 30%;
+  background-color: #C4C4C4;
+  width: 40%;
+  padding: 10px 0;
+  border-radius: 8px;
+  font-family: "Lucidity-Condensed";
+}
+
+header .navbar {
+  background-color: #C4C4C4;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+header .navbar .box-menu .menu-links {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar .collapse ul li .nav-link {
+  font-family: "Lucidity-Condensed";
+  color: rgb(0, 0, 0);
+}
+
+/*FIN HEADER*/
+/*INDEX*/
+.carousel-text {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.666);
+}
+
+h5 {
+  margin-top: 25%;
+}
+
+/*INDEX*/
+@font-face {
+  font-family: "Lucidity-Condensed";
+  src: local("Lucidity-Condensed"), url(../../fonts/Lucidity-Condensed.ttf) format("woff");
+}
+
+/*# sourceMappingURL=style.css.map */
