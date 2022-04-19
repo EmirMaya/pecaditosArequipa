@@ -1,18 +1,19 @@
 /*INDEX*/
- .carousel-text {
-     padding: 0;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-    //  height: 100%;
-    //  width: 50%;
-     background-color: rgba(0, 0, 0, 0.666);
- }
+.carousel-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20% 0 5%;
+    background-color: #5f3501bf;
+    border-radius: 8px;
 
- h5 {
-     margin-top: 25%;
- }
- .carousel-caption {
+}
+
+h5 {
+    margin-top: 25%;
+}
+
+.carousel-caption {
     position: absolute;
     right: 30%;
     left: 0%;
@@ -22,4 +23,44 @@
     bottom: 5%;
     top: 5%;
 }
-/*INDEX*/
+
+.carousel-img {
+    width: 90%;
+    margin: auto;
+}
+
+.arrow-button {
+  width: 5%;
+}
+
+.carousel-arrow {
+    background-color: $bg-navbar;
+    border-radius: 5px; 
+}
+
+
+
+/*FIN INDEX*/
+
+.wsp-container {
+    width: 60px;
+    height: 60px;
+    background-color: $bg-navbar;
+    border-radius: 30px;
+    position:sticky;
+    bottom: 20px;
+    left:93%;
+}
+
+.wsp-container a{
+    text-decoration: none
+}
+
+
+.wsp-container .wsp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    color: black;
+}

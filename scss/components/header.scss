@@ -2,6 +2,7 @@
 
 .navbar-logo {
     display: flex;
+    align-items: center;
     padding: 30px;
     text-align: center;
     background-color: $bg-body;
@@ -58,7 +59,7 @@ header .navbar .box-menu .menu-links {
     color: rgb(0, 0, 0);
 }
 .img-logo {
-    height: 100px;
+    height: 70px;
     width: auto;
 }
 
