@@ -1,37 +1,45 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
-  background-color: #ffff; }
+  background-color: #ffff;
+}
 
 /*HEADER*/
 .navbar-logo {
   display: flex;
   padding: 30px;
   text-align: center;
-  background-color: #ffff; }
+  background-color: #ffff;
+}
 
 .socialmedia-box {
-  padding: 10px 0; }
+  padding: 10px 0;
+}
 
 .socialmedia-ul {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 .socialmedia-ul li {
   padding: 0 10px;
-  list-style-type: none; }
+  list-style-type: none;
+}
 
 .socialmedia-ul li a {
-  color: black; }
+  color: black;
+}
 
 .fab {
-  font-size: 35px; }
+  font-size: 35px;
+}
 
 .box-logo {
   margin: auto;
@@ -40,23 +48,28 @@ body {
   width: 40%;
   padding: 10px 0;
   border-radius: 8px;
-  font-family: 'Lucidity-Condensed'; }
+  font-family: 'Lucidity-Condensed';
+}
 
 header .navbar {
   background-color: #BABABA;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25); }
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
 
 header .navbar .box-menu .menu-links {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .navbar .collapse ul li .nav-link {
   font-family: 'Lucidity-Condensed';
-  color: black; }
+  color: black;
+}
 
 .img-logo {
   height: 100px;
-  width: auto; }
+  width: auto;
+}
 
 /*FIN HEADER*/
 /*INDEX*/
@@ -65,10 +78,12 @@ header .navbar .box-menu .menu-links {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.666); }
+  background-color: rgba(0, 0, 0, 0.666);
+}
 
 h5 {
-  margin-top: 25%; }
+  margin-top: 25%;
+}
 
 .carousel-caption {
   position: absolute;
@@ -78,9 +93,11 @@ h5 {
   color: #fff;
   text-align: center;
   bottom: 5%;
-  top: 5%; }
+  top: 5%;
+}
 
 /*INDEX*/
 @font-face {
   font-family: 'Lucidity-Condensed';
-  src: local("Lucidity-Condensed"), url(../../fonts/Lucidity-Condensed.ttf) format("woff"); }
+  src: local("Lucidity-Condensed"), url(../../fonts/Lucidity-Condensed.ttf) format("woff");
+}
