@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "lucidity-condensed";
 }
 
 body {
@@ -79,11 +80,12 @@ header .navbar .box-menu .menu-links {
   justify-content: center;
   align-items: center;
   margin: 0 20% 0 5%;
-  background-color: rgba(95, 53, 1, 0.7490196078);
+  background-color: rgba(95, 53, 1, 0.5764705882);
   border-radius: 8px;
+  font-family: "lucidity-condensed";
 }
 
-h5 {
+h2 {
   margin-top: 25%;
 }
 
@@ -112,7 +114,72 @@ h5 {
   border-radius: 5px;
 }
 
+.carousel-btn {
+  background-color: rgba(0, 0, 0, 0.677);
+  color: #BABABA;
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+.section-ind {
+  padding: 30px;
+  margin: 100px 0;
+  background-color: #dbb2b2;
+}
+
+.h3-ind, .text-ind {
+  text-align: center;
+}
+
+.prod-dest {
+  margin: 50px 30px;
+  border-top: 1px solid #BABABA;
+  border-bottom: 1px solid #BABABA;
+}
+
+.cards-container {
+  margin: 30px 15px;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.card {
+  border-radius: 8px;
+  width: 70%;
+  height: 70px;
+  box-shadow: 0 8px 2px -2px rgba(0, 0, 0, 0.25);
+}
+
+.buy-button {
+  background-color: #dbb2b2;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title, .card-text {
+  text-align: center;
+}
+
 /*FIN INDEX*/
+/*ALFAJORES*/
+.sec-alfj {
+  margin: 50px;
+}
+
+/*FIN ALFAJORES*/
 .wsp-container {
   width: 60px;
   height: 60px;
@@ -135,6 +202,21 @@ h5 {
   color: black;
 }
 
+/*FOOTER*/
+.bg-footer {
+  background-color: #b2dbd5;
+}
+
+.copyright-box {
+  padding: 30px 0;
+}
+
+.copyright-text {
+  text-align: center;
+  color: grey;
+}
+
+/*FIN FOOTER*/
 @font-face {
   font-family: "Lucidity-Condensed";
   src: local("Lucidity-Condensed"), url(../../fonts/Lucidity-Condensed.ttf) format("woff");
