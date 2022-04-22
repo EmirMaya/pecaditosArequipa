@@ -96,9 +96,7 @@ h2 {
   width: 90%;
   margin: auto; }
 
-.carousel-item.active,
-.carousel-item-next,
-.carousel-item-prev {
+.carousel-item active {
   display: flex; }
 
 .arrow-button {
@@ -114,12 +112,6 @@ h2 {
   padding: 20px;
   border: none;
   border-radius: 8px; }
-
-.carousel-control-prev {
-  left: -50px; }
-
-.carousel-control-next {
-  right: -50px; }
 
 .section-ind {
   padding: 30px;
