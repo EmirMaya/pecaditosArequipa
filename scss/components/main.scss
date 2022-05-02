@@ -26,10 +26,10 @@ h2 {
 
 
 .carousel-img {
-    box-shadow:0px 0px 5px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 5px 15px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     width: 90%;
-    margin:30px auto;
+    margin: 30px auto;
 }
 
 .carousel-item.active,
@@ -198,4 +198,62 @@ h2 {
     align-items: center;
     padding: 12px;
     color: black;
+}
+
+.cater-sec {
+
+    margin: 40px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: $bg-footer;
+}
+
+.cater-table {
+    margin: 5px auto;
+}
+
+.tg-0pky-main, .tg-0pky-boxes {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+
+.cater-table,
+.cather-thead,
+.cater-tr,
+.tg-0pky,
+.cater-tbody {
+    color: black;
+    font-family: $fam-roboto;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+.cater-button {
+    border-radius: 8px;
+    width: 15%;
+    padding: 10px 20px;
+    margin: 30px auto;
+    background-color: $bg-navbar;
+}
+
+.cater-link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.cater-img-cont {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cater-img {
+    border-radius: 8px;
+    width: 1060px;
+    height: 700px;
 }

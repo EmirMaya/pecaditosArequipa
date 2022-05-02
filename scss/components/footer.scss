@@ -1,16 +1,53 @@
 /*FOOTER*/
 
 .bg-footer {
-  background-color: $bg-footer;
+  background-color: $bg-navbar;
+}
+
+.footer-content,
+.foot-links {
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.foot-logo {
+  width: 15%;
+}
+
+.foot-img {
+  width: 100%;
+}
+
+.foot-links {
+  justify-content: center;
+}
+
+.foot-li {
+  margin-right: 20px;
+  display: flex;
+  justify-content: start;
+}
+
+.foot-a {
+  font-family: $fam-roboto;
+  font-weight: bolder;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
 }
 
 .copyright-box {
-    padding: 30px 0;
+  margin: 0 50px;
+  border-top: 1px solid grey;
+  padding: 10px 0;
 }
 
 .copyright-text {
-    text-align: center;
-    color: grey;
+  text-align: center;
+  color: grey;
 }
 
 /*FIN FOOTER*/
