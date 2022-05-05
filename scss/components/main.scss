@@ -118,7 +118,10 @@ h2 {
     font-size: 20px;
 }
 
-
+.navbar-light .navbar-nav .nav-link.active {
+    color: #B78448;
+    ;
+}
 .prod-dest {
     margin: 50px 30px;
     border-top: 1px solid $bg-navbar;
