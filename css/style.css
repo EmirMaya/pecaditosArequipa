@@ -10,12 +10,26 @@ body {
 }
 
 /*HEADER*/
+.text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  color: white;
+  margin: 0;
+  font-size: 14px;
+}
+
 .contact-box {
   position: fixed;
   width: 100%;
   z-index: 10;
   top: 0;
-  background-color: #262626;
+  background-color: #ff956e;
 }
 
 header div div .redes-box {
@@ -31,25 +45,37 @@ header div div .phone-box {
 }
 
 header .navbar {
-  margin: 0 30px 30px 30px;
+  background-color: #262626;
+  margin: 43px 0 0 0;
 }
 
 header .navbar .box-menu .menu-links {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.navbar .collapse ul {
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .collapse ul li {
+  padding: 0 10px;
 }
 
 .navbar .collapse ul li .nav-link {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: bolder;
-  color: black;
+  color: white;
 }
 
 .img-logo {
-  margin-bottom: 10px;
-  height: 90px;
-  width: 20%;
+  height: 170px;
+  width: 100%;
 }
 
 .navbar-brand {
@@ -134,14 +160,45 @@ h2 {
 }
 
 .section-ind {
-  padding: 30px;
+  padding: 100px 30px;
   margin: 100px 0;
-  background-color: #dbb2b2;
 }
 
-.h3-ind,
-.text-ind {
+.h3-icons {
   text-align: center;
+  margin-bottom: 30px;
+}
+
+.icons-container {
+  margin: 0 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-icon, .icon-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 90px;
+  width: 90%;
+}
+
+.icon-img {
+  height: 90px;
+  width: 70%;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .prod-dest {
@@ -262,7 +319,8 @@ h2 {
   margin: 5px auto;
 }
 
-.tg-0pky-main, .tg-0pky-boxes {
+.tg-0pky-main,
+.tg-0pky-boxes {
   padding: 10px 20px;
   font-size: 20px;
 }
@@ -306,7 +364,8 @@ h2 {
   height: 700px;
 }
 
-.coorp-text, .coorp-list {
+.coorp-text,
+.coorp-list {
   margin: 50px 80px;
   display: flex;
   flex-direction: column;
