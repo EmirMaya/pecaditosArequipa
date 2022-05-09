@@ -8,6 +8,10 @@
     font-family: "lucidity-condensed";
 }
 
+.carousel {
+    width: 90%;
+}
+
 h2 {
     margin-top: 25%;
 }
@@ -171,8 +175,38 @@ h2 {
     text-align: center;
 }
 
+.tienda-box {
+    padding: 50px;
+    margin: 30px 70px;
+}
 
+.tienda-h3 {
+    margin-left: 70px;
+}
 
+.tienda-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tienda-li {
+    font-family: $fam-roboto;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 30px 40px;
+    list-style-type: none;
+}
+
+.tienda-icon {
+    margin: 10px;
+    width: 30px;
+}
+
+.tienda-img {
+    border-radius: 8px;
+    width: 40%;
+}
 /*FIN INDEX*/
 
 /*CATALOGO*/
@@ -327,4 +361,55 @@ h2 {
     font-family: $fam-roboto;
     font-weight: bolder;
     font-size: 20px;
+}
+
+
+.first-sec-nosotros {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-box {
+    margin-top: 130px;
+    border-radius: 8px;
+}
+
+.text-nos {
+    margin: 0 50px;
+}
+
+.text-center, .text-ind {
+    font-family: $fam-roboto;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.section-slogan {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-logo {
+    
+    width: 10%;
+    height: 130px;
+}
+
+.text-ind {
+    text-align: center;
+    margin:0 230px;
+}
+
+.map-box {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.map {
+    border-radius: 8px;
 }
