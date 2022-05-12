@@ -56,7 +56,7 @@ header .navbar .box-menu .menu-links {
 }
 
 .navbar .collapse ul {
-  margin-right: 100px;
+  margin-right: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,8 +148,8 @@ h2 {
 }
 
 .carousel-btn {
-  background-color: rgba(0, 0, 0, 0.677);
-  color: #262626;
+  background-color: #262626;
+  color: white;
   padding: 20px;
   border: none;
   border-radius: 8px;
@@ -188,16 +188,11 @@ h2 {
 }
 
 .icon {
-  height: 90px;
-  width: 90%;
+  height: 120px;
+  width: 100%;
 }
 
-.icon-img {
-  height: 90px;
-  width: 70%;
-}
-
-.icon-link {
+.icon-link, .promo-p {
   text-decoration: none;
   color: black;
   font-family: "Roboto", sans-serif;
@@ -240,6 +235,16 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.promo-box {
+  margin: 100px;
+  text-align: center;
+}
+
+.promo-h3 {
+  font-size: 34px;
+  margin-bottom: 30px;
 }
 
 .card-title,
@@ -475,6 +480,15 @@ h2 {
 
 .map {
   border-radius: 8px;
+}
+
+.contacto-box {
+  margin: 130px;
+}
+
+.contacto-h2 {
+  margin-top: 50px;
+  margin-left: 130px;
 }
 
 /*FOOTER*/
