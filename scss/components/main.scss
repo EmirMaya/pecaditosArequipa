@@ -226,7 +226,17 @@ h2 {
     border-radius: 8px;
     border: 1px solid $bg-navbar;
 }
-
+.cardCata {
+        .botonCata {
+            opacity: 0;
+            transition: opacity 0.5s;
+    }
+    &:hover {
+        .botonCata {
+            opacity: 1;
+        }
+    }
+} 
 .cat-img {
     height: 270px;
     width: 100%;

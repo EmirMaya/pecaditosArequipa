@@ -138,7 +138,7 @@ h2 {
   right: -50px; }
 
 .section-ind {
-  padding: 150px 30px;
+  padding: 100px 30px;
   margin: 100px 0; }
 
 .h3-icons {
@@ -250,6 +250,13 @@ h2 {
   box-shadow: 0 8px 2px -2px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
   border: 1px solid #262626; }
+
+.cardCata .botonCata {
+  opacity: 0;
+  transition: opacity 0.5s; }
+
+.cardCata:hover .botonCata {
+  opacity: 1; }
 
 .cat-img {
   height: 270px;
