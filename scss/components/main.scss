@@ -96,7 +96,8 @@ h2 {
     align-items: center;
 }
 
-.box-icon, .icon-link {
+.box-icon,
+.icon-link {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,7 +111,8 @@ h2 {
 }
 
 
-.icon-link, .promo-p {
+.icon-link,
+.promo-p {
     text-decoration: none;
     color: black;
     font-family: $fam-roboto;
@@ -122,6 +124,7 @@ h2 {
     color: #B78448;
     ;
 }
+
 .prod-dest {
     margin: 50px 30px;
     border-top: 1px solid $bg-navbar;
@@ -129,18 +132,16 @@ h2 {
 }
 
 
-// .cards-container {
-
-//     // margin: 30px 15px;
-// }
-
-.sec-alfj .cards-container .col {
-    margin: 0 0 35px 0;
-
-    display: flex;
-    justify-content: center;
-
+.more-sold {
+    border-radius: 8px;
 }
+
+div .more-sold img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
 
 .card {
     border-radius: 8px;
@@ -173,12 +174,32 @@ h2 {
     margin-bottom: 30px;
 }
 
+.title-cm {
+    text-align: center;
+}
+
+.title-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width: 100%;
+}
+
+div div div .title-price p {
+    margin-bottom: 0.5rem;
+}
+
 .card-title,
 .card-text,
-.buy-button {
+.buy-button,
+.text-cm {
     font-weight: bolder;
     font-family: $fam-roboto;
     text-align: center;
+}
+
+.card-title, .card-text {
+    text-align: start;
 }
 
 .tienda-box {
@@ -213,10 +234,13 @@ h2 {
     border-radius: 8px;
     width: 40%;
 }
+
 /*FIN INDEX*/
 
 /*CATALOGO*/
 .cat-col {
+    display: flex;
+    flex-wrap: wrap;
     margin: 30px 0;
     // padding: 20px 50px;
 }
@@ -224,19 +248,21 @@ h2 {
 .cat-card {
     box-shadow: 0 8px 2px -2px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    border: 1px solid $bg-navbar;
 }
+
 .cardCata {
-        .botonCata {
-            opacity: 0;
-            transition: opacity 0.5s;
+    .botonCata {
+        opacity: 0;
+        transition: opacity 0.5s;
     }
+
     &:hover {
         .botonCata {
             opacity: 1;
         }
     }
-} 
+}
+
 .cat-img {
     height: 270px;
     width: 100%;
@@ -254,24 +280,53 @@ h2 {
     text-decoration: none;
 }
 
-/*FIN CATALOGO*/
-
-
-
-.sec-alfj {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 70px;
+.cards-container {
+    margin: 0 80px;
 }
 
+
+
+.sec-prod .cards-container .col {
+    margin: 0 0 35px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.aside {
+    width: 100%;
+}
+
+.aside div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.aside-link {
+
+    text-align: center;
+    margin: 25px 0;
+    text-decoration: none;
+    background-color: $bg-navbar;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 18px;
+}
+
+.sec-prod {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 70px 30px;
+}
+
+/*FIN CATALOGO*/
 
 .title-h2 {
     text-align: center;
     margin: 30px;
-    border-bottom: 1px solid $bg-navbar;
-    // font-family: $fam-roboto;
+
 }
 
 .wsp-container {
@@ -373,7 +428,8 @@ h2 {
     font-size: 20px;
 }
 
-.coorp-list ul li {
+.coorp-list ul li,
+.aside-link {
     font-family: $fam-roboto;
     font-weight: bolder;
     font-size: 20px;
@@ -395,7 +451,9 @@ h2 {
     margin: 0 50px;
 }
 
-.text-center, .text-ind {
+.text-center,
+.text-ind,
+.pag-link {
     font-family: $fam-roboto;
     font-size: 20px;
     font-weight: bolder;
@@ -410,14 +468,14 @@ h2 {
 }
 
 .p-logo {
-    
+
     width: 10%;
     height: 130px;
 }
 
 .text-ind {
     text-align: center;
-    margin:0 230px;
+    margin: 0 230px;
 }
 
 .map-box {
