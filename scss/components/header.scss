@@ -20,8 +20,12 @@
     z-index: 10;
     top: 0;
     background-color: #B78448;
-    ;
+    
  
+}
+
+header div div .redes-box a img {
+    height: 45px;
 }
 
 header div div .redes-box {
@@ -31,6 +35,11 @@ header div div .redes-box {
 header div div .phone-box {
     margin-right: 20px;
 }
+
+header div div .phone-box img {
+    width: 18%;
+}
+
 
 .fab {
     font-size: 35px;
@@ -59,7 +68,9 @@ header .navbar .box-menu .menu-links {
 }
 
 .navbar .collapse ul li .nav-link {
-   
+    &:hover {
+        color: $hover;
+    }
     font-family: $fam-roboto;
     font-size: 20px;
     font-weight: bolder;
