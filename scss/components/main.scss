@@ -533,6 +533,34 @@ div div div .title-price p {
     margin: 0 230px;
 }
 
+div .line-box div div {
+    padding: 10px 30px;
+    background-color: $bg-navbar;
+    border-radius: 8px;
+}
+
+div .line-box div .icon  {
+
+ width: 57%;
+ height: 154px;
+}
+
+div .line-box div .img-fluid {
+ margin-right: 20px;
+ width: 100%;
+}
+
+div .line-box div div .us-text {
+    color: white;
+    font-family: $fam-roboto;
+    font-weight: bolder;
+    width: 100%;
+}
+
+.line-box {
+    margin: 0 180px;
+}
+
 .map-box {
     display: flex;
     justify-content: center;
