@@ -2,10 +2,12 @@
 .noOverflow {
     overflow-x: hidden;
 }
+
 .overflowOverlay {
     overflow: overlay;
     overflow-x: hidden;
 }
+
 .carousel-text {
     display: flex;
     justify-content: center;
@@ -74,6 +76,7 @@ h2 {
     &:hover {
         color: $hover;
     }
+
     background-color: $bg-navbar;
     color: white;
     padding: 20px;
@@ -92,6 +95,14 @@ h2 {
 .section-ind {
     padding: 100px 30px;
     margin: 100px 0;
+}
+
+.d-flex .m-sold {
+    flex-wrap: wrap;
+}
+
+.desde {
+    font-size: 12px;
 }
 
 .h3-icons {
@@ -204,17 +215,20 @@ div .more-sold img {
 div div div .title-price p {
     margin-bottom: 0.5rem;
 }
+
 .smColumn {
     @media screen and (max-width :521px) {
         flex-direction: column;
         align-items: center;
     }
 }
+
 .smIcon {
     @media screen and (max-width :521px) {
         margin: 0px;
     }
 }
+
 .card-title,
 .card-text,
 .buy-button,
@@ -389,7 +403,7 @@ div div div .title-price p {
     margin: 40px;
     padding: 30px;
     border-radius: 8px;
-    background-color: $bg-footer;
+    background-color: $bg-section;
 }
 
 .cater-table {
@@ -460,11 +474,15 @@ div div div .title-price p {
     font-size: 20px;
 }
 
-.coorp-list ul li,
+.coorp-li,
 .aside-link {
     font-family: $fam-roboto;
     font-weight: bolder;
     font-size: 20px;
+}
+
+.coorp-li {
+    margin: 30px 20px;
 }
 
 
@@ -506,7 +524,6 @@ div div div .title-price p {
 }
 
 .p-logo {
-
     width: 10%;
     height: 130px;
 }
@@ -557,6 +574,6 @@ div div div .title-price p {
 }
 
 .linkedin-text {
-    margin-left: 20px;
+    margin: 0 20px;
     font-size: 40px;
 }

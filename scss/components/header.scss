@@ -47,7 +47,7 @@ header div div .phone-box img {
 
 header .navbar {
     background-color: $bg-navbar;
-    margin:43px 0 0 0;
+    margin:54px 0 0 0;
 }
 
 header .navbar .box-menu .menu-links {
@@ -77,10 +77,12 @@ header .navbar .box-menu .menu-links {
     color: white;
 }
 
-
+.itemsBackgrounds {
+    display: none;
+}
 
 .img-logo {
-    height: 170px;
+    height: 140px;
     width: 100%;
 }
 
