@@ -62,7 +62,9 @@ header .navbar .box-menu .menu-links {
     justify-content: center;
     align-items: center;
 }
-
+.navbar-collapse {
+    text-align: -webkit-center;
+}
 .navbar .collapse ul li {
     padding: 0 10px;
 }
